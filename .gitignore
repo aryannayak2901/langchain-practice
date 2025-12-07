@@ -1,4 +1,5 @@
 #Setting git ignore file
 .env
 venv
+streamlitenv
 __pycache__
