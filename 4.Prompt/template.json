@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "paper_input",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nSummarize the research paper titled \"{paper_input}\" with the following specifications:\nExplanation Style: {style_input}\nExplanation Length: {length_input}\n1. Mathematical Details:\n    - Include equations and formulas\n    - Use LaTeX for mathematical expressions\n    - Provide step-by-step derivations\n2. Code and Implementation:\n    - Include code snippets\n    - Explain the code logic\n    - Provide implementation details\n3. Visualizations:\n    - Include charts and graphs\n    - Explain the visualizations\n    - Provide interpretation of the visualizations\n4. Applications:\n    - Include real-world applications\n    - Explain the applications\n    - Provide interpretation of the applications\n5. Future Work:\n    - Include future work\n    - Explain the future work\n    - Provide interpretation of the future work\n6. Conclusion:\n    - Include conclusion\n    - Explain the conclusion\n    - Provide interpretation of the conclusion\n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}

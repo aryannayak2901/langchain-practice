@@ -1,0 +1,4 @@
+#Setting git ignore file
+.env
+venv
+__pycache__
